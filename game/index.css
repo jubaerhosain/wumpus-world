@@ -1,0 +1,107 @@
+.left-side{
+    width: 40%;
+    float: left; 
+    height: 100vh; 
+    border: 1px solid #c09c28; 
+    box-sizing: border-box; 
+}
+
+  .right-side {
+      width: 60%; 
+      float: left;
+      height: 100vh; 
+      border: 1px solid #ccc; 
+      box-sizing: border-box; 
+  }
+
+  /* Optional: Add some styling to the divs */
+  .left-side {
+      background-color: #f0f0f0;
+  }
+
+  .right-side {
+      background-color: #e7eaec;
+  }
+
+.cell {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  background-color: rgb(37, 35, 35);
+  padding: 1px;
+}
+.cell2 {
+  height: 50px;
+  width: 30px;
+  border: 1px solid black;
+  display: inline-block;
+  background-color: rgb(253, 249, 249);
+  text-align: center; /* Center text horizontally */
+  line-height: 50px; /* Center text vertically */
+  font-size: 16px;
+  padding: 1px;
+}
+.visited {
+  background-color: rgb(196, 187, 187);
+}
+.Nvisited {
+  border: 2px solid green;
+}
+
+.pitCell {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid red;
+}
+.wumpusCell {
+  background-image: url(picW.jpg);
+  background-size: 50px 50px;
+}
+.breezeCell {
+  background-image: url(breezePic.PNG);
+  background-size: 50px 50px;
+}
+.snitchCell {
+  background-image: url(stenchPic.PNG);
+  background-size: 50px 50px;
+}
+.doubleCell {
+  background-image: url(doublePic.PNG);
+  background-size: 50px 50px;
+}
+.goldCell {
+  background-image: url(gold.jpg);
+  background-size: 50px 50px;
+}
+.agentCell {
+  background-image: url(agent.jpeg);
+  background-size: 50px 50px;
+}
+.goldBreez {
+  background-image: url(GB.png);
+  background-size: 50px 50px;
+}
+.goldStench {
+  background-image: url(GS.png);
+  background-size: 50px 50px;
+}
+.goldBoth {
+  background-image: url(GBS.png);
+  background-size: 50px 50px;
+}
+.wumpus_dead{
+  background-image: url(wumpus_dead.png);
+  background-size: 50px 50px;
+}
+.canPit{
+  background-color: rgb(0, 0, 0);
+}
+.canWumpus{
+  background-color: rgb(236, 7, 7);
+}
+.canBoth{
+  background-color: rgb(68, 34, 68);
+}
+.safe{
+  background-color: rgb(103, 241, 10);
+}
